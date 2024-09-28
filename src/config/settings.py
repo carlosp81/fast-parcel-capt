@@ -44,7 +44,9 @@ PROJECT_APPS = [
     'p_apps.core'
 ]
 
-THIRD_PARTY_APPS = []
+THIRD_PARTY_APPS = [
+    'bootstrap5'
+]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
 
@@ -61,7 +63,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'config.urls'
 
-print(BASE_DIR)
 
 TEMPLATES = [
     {
